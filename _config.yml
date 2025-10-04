@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Jiarong Qian / Research Web"
 title_separator          : "-"
 name                     : &name "Jiarong Qian"
-description              : &description "I'm a final-year student at Shandong University."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "I'm now a final-year student at Shandong University."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://JiarongQian.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,10 +25,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jiarong Qian"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I'm now a final-year student at Shandong University."
   location         : "China"
   employer         : "Shandong University"
-  uri              : "https://jiarongqian.github.io/"
+  uri              : "https://JiarongQian.github.io/"
   email            : "linnajia76@gmail.com" 
 
   # Academic websites
