@@ -64,12 +64,39 @@ body::before {
     pointer-events: none;
 }
 
-/* Additional text enhancement */
+/* Additional text enhancement - Apply to all content areas */
 .page__content,
 .page__inner-wrap,
 .archive__item,
 .masthead,
-.sidebar {
+.sidebar,
+.page,
+.archive,
+.single,
+.talk,
+.portfolio,
+.publications,
+.research,
+.others,
+.about,
+.cv,
+.page__hero,
+.page__taxonomy,
+.page__meta,
+.page__content p,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.page__content ul,
+.page__content ol,
+.page__content li,
+.page__content blockquote,
+.page__content table,
+.page__content pre,
+.page__content code {
     background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content areas */
     border-radius: 8px;
     padding: 20px;
