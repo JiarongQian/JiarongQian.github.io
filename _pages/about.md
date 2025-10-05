@@ -7,8 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-我现在是山东大学的一名大四学生,
+I am currently a senior student at Shandong University.
 
-我的研究兴趣主要聚焦与如何利用AI帮助人更好地健康发展（身体/心理健康）：
-Healthcare AI
-Human-centered AI
+My research combines social science with machine learning, aiming to develop AI that is most suitable for humans.
+The core question I'm interested in is how to use artificial intelligence to promote healthier human development (physical health/mental health).
+
+My areas of greatest interest include:
+1) Healthcare AI;
+2) Human-centered AI
+3) Computational social science.
+4) Safe and Responsible AI
