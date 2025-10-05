@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a final-year student at Shandong University in China. My undergraduate thesis is co-supervised by <a href="scholar.google.com/citations?user=ooqH5wcAAAAJ&hl=zh-CN" target="_blank">Prof. Peng Xue</a> from Shandong University and <a href="https://scholar.google.com/citations?user=bI_qetYAAAAJ&hl=en" target="_blank">Prof. Lei Ma</a> from Tongji University. At the same time, I am also working as a research intern under the supervision of Prof. Jing Huang at the University of Pennsylvania.
+I am currently a final-year student at Shandong University in China. My undergraduate thesis is co-supervised by <a href="https://scholar.google.com/citations?user=ooqH5wcAAAAJ&hl=zh-CN" target="_blank">Prof. Peng Xue</a> from Shandong University and <a href="https://scholar.google.com/citations?user=bI_qetYAAAAJ&hl=en" target="_blank">Prof. Lei Ma</a> from Tongji University. At the same time, I am also working as a research intern under the supervision of Prof. Jing Huang at the University of Pennsylvania.
 
 My areas of greatest interest include:<br>
 1) Healthcare AI;<br>
