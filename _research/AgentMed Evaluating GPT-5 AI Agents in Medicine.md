@@ -5,18 +5,15 @@ permalink: /research/2024-01-01-your-research-project
 date: 2025-10-05
 ---
 
-##Project Objective:
+## Project Objective:
 To evaluate how successive advancements from base LLMs to autonomous GPT-5 agents impact clinical reasoning and diagnostic accuracy.
 
-##Main Output:
+## Main Output:
 ○	Developed a multi-modal open-ended QA benchmark (196 cases with verified ground truth) for evaluating model performance in real-world diagnostic scenarios.
 ○	Proposed a comprehensive evaluation framework for open-ended answers, assessing both accuracy and reasoning process.
 ○	Conducted an in-depth analysis of performance differences and impacts among LLM-based, Web Search, and Agent-based approaches in diagnosis.
 ○	Built a GitHub Page to present the overall workflow, evaluation process, and results.
 
-
-## 项目截图
-![项目截图](/images/research-screenshot.png)
 
 ## 架构图
 ![系统架构图](/images/system-architecture.png)
