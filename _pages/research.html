@@ -7,42 +7,154 @@ author_profile: true
 
 {% include base_path %}
 
-## AgentMed: Evaluating GPT-5 AI Agents in Medicine
+<style>
+.project-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+}
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex: 1;">
-    <img src="/images/agentmed-project.png" alt="AgentMed Project" style="width: 100%; max-width: 300px; height: auto;">
+.project-image {
+  flex: 2;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.02);
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-content {
+  flex: 1;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 90%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+}
+</style>
+
+<strong>AgentMed: Evaluating GPT-5 AI Agents in Medicine</strong>
+
+<div class="project-container">
+  <div class="project-image" onclick="openModal('agentmedModal')">
+    <img src="/images/agentmed-project.png" alt="AgentMed Project">
   </div>
-  <div style="flex: 2;">
+  <div class="project-content">
     <h3>Project Objective:</h3>
     <p>To evaluate how successive advancements from base LLMs to autonomous GPT-5 agents impact clinical reasoning and diagnostic accuracy.</p>
   </div>
 </div>
 
----
 
-## Large-Scale Models for Medical Image Quality Control
+<strong>Large-Scale Models for Medical Image Quality Control</strong>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex: 1;">
-    <img src="/images/medical-image-quality.png" alt="Medical Image Quality Control" style="width: 100%; max-width: 300px; height: auto;">
+<div class="project-container">
+  <div class="project-image" onclick="openModal('medicalModal')">
+    <img src="/images/medical-image-quality.png" alt="Medical Image Quality Control">
   </div>
-  <div style="flex: 2;">
+  <div class="project-content">
     <h3>Project Objective:</h3>
     <p>Develop a multimodal medical imaging quality control model that automatically assesses the acquisition quality of multi-site human images and supports clinical diagnosis, particularly assisting doctors with limited reading experience in resource-constrained region.</p>
   </div>
 </div>
 
----
 
-## ToothFussion: Generate a completed tooth from crown information
+<strong>ToothFussion: Generate a completed tooth from crown information</strong>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex: 1;">
-    <img src="/images/toothfusion-project.png" alt="ToothFussion Project" style="width: 100%; max-width: 300px; height: auto;">
+<div class="project-container">
+  <div class="project-image" onclick="openModal('toothfusionModal')">
+    <img src="/images/toothfusion-project.png" alt="ToothFussion Project">
   </div>
-  <div style="flex: 2;">
+  <div class="project-content">
     <h3>Project Objective:</h3>
     <p>To generate complete CBCT tooth structures from partial IOS crown information and textual descriptions, thereby reducing dental patients' exposure to CT radiation and lowering the risk of radiation-induced malignancies.</p>
   </div>
 </div>
+
+<!-- Modals -->
+<div id="agentmedModal" class="modal">
+  <span class="close" onclick="closeModal('agentmedModal')">&times;</span>
+  <img class="modal-content" src="/images/agentmed-project.png" alt="AgentMed Project">
+</div>
+
+<div id="medicalModal" class="modal">
+  <span class="close" onclick="closeModal('medicalModal')">&times;</span>
+  <img class="modal-content" src="/images/medical-image-quality.png" alt="Medical Image Quality Control">
+</div>
+
+<div id="toothfusionModal" class="modal">
+  <span class="close" onclick="closeModal('toothfusionModal')">&times;</span>
+  <img class="modal-content" src="/images/toothfusion-project.png" alt="ToothFussion Project">
+</div>
+
+<script>
+function openModal(modalId) {
+  document.getElementById(modalId).style.display = "block";
+}
+
+function closeModal(modalId) {
+  document.getElementById(modalId).style.display = "none";
+}
+
+// Close modal when clicking outside the image
+window.onclick = function(event) {
+  if (event.target.classList.contains('modal')) {
+    event.target.style.display = "none";
+  }
+}
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+      modal.style.display = "none";
+    });
+  }
+});
+</script>
