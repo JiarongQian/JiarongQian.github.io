@@ -10,12 +10,11 @@ redirect_from:
 {% include base_path %}
 
 <div class="cv-main-section">
-  <h1>CV</h1>
-  <p>欢迎查看我的完整简历。您可以通过以下链接下载PDF版本：</p>
+  <p>Welcome to view my complete CV. You can access the online version through the following link:</p>
   
   <div class="cv-download-links">
-    <a href="您的CV链接" class="btn btn--primary btn--large" target="_blank">
-      📄 下载简历 (PDF)
+    <a href="https://drive.google.com/file/d/1pypk5mBCQ8k1Ah60Ispgfpdfx9nQGQ9Y/view?usp=drive_link" class="btn btn--primary btn--large" target="_blank">
+      📄 View CV (Google Drive)
     </a>
   </div>
   
