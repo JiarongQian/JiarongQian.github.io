@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a senior student at Shandong University.<br>
+I am currently a senior student at Shandong University. My undergraduate thesis is co-supervised by Prof. Peng Xue from Shandong University and Prof. Lei Ma from Tongji University. At the same time, I am also working as a research intern under the supervision of Prof. Jing Huang at the University of Pennsylvania.<br>
 
 My research combines social science with machine learning, aiming to develop AI that is most suitable for humans.<br>
 The core question I'm interested in is how to use artificial intelligence to promote healthier human development (physical health/mental health).<br>
